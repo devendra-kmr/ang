@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="demoServices">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Angular Demo</title>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- <link rel="stylesheet" type="text/css"
+	href="js/jquery-todo/css/styles.css" /> -->
+<script type="text/javascript" src="lib/angular.js"></script>
+<script type="text/javascript" src="lib/angular-ui-router.js"></script>
+<script type="text/javascript" src="lib/ui-bootstrap-tpls-0.10.0.js"></script> 
+<script type="text/javascript" src="javascript/demo_service.js"></script>
+</head>
+<body ng-controller="MainCtrl">
+	<!-- PAGE -->
+	<section id="page">
+		<!-- SIDEBAR -->
+		<div id="sidebar" class="sidebar">
+			<div class="sidebar-menu nav-collapse">
+				<div class="divide-20"></div>
+				<ul>
+					<li class="has-sub">
+					        <a class="" ui-sref="firstpage"><span class="sub-menu-text">First Page</span></a>
+					 </li> 
+					<li class="has-sub">	
+							<a class="" ui-sref="secondpage"><span class="sub-menu-text">Second Page</span> </a>
+				      </li>
+				</ul>
+				<!-- /SIDEBAR MENU -->
+			</div>
+		</div>
+		<!-- /SIDEBAR -->
+		<div id="main-content">
+			<div class="container">
+				<div class="row">
+					<!-- CONTENT-->
+					<div id="content" class="col-lg-12">
+						<div ui-view></div>
+					</div>
+					<!-- /CONTENT-->
+				</div>
+			</div>
+		</div>
+	</section>
+	<script type="text/javascript" src="javascript/services/helloWorldService.js"></script> 
+	<script type="text/javascript" src="javascript/factory/hellowordfactory.js"></script> 
+	<script type="text/javascript" src="javascript/controller/firstctrl.js"></script> 
+	<script src="javascript/controller/secondctrl.js"></script> 
+</body>
+</html>
