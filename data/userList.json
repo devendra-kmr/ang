@@ -1,0 +1,9 @@
+{
+"userList":
+[
+{"userID" : "1","firstName":"Devendra","lastName" : " Kumar","jobTitle":"SE", "email" : "devendra@icthealth.com", "org" : "ICT Health"},
+{"userID" : "2","firstName":"Hemant","lastName" : "Raj","jobTitle":"SE", "email" : "hemantraj@icthealth.com", "org" : "ICT Health"},
+{"userID" : "3","firstName":"Badri","lastName" : "Patro","jobTitle":" SE", "email" : "badri@icthealth.com", "org" : "ICT Health"},
+{"userID" : "4","firstName":"Ashok", "lastName" : "SP","jobTitle":"SE", "email" : "ashok@icthealth.com", "org" : "ICT Health"}
+]
+}
